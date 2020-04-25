@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sjsu.enterpriseproject",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.8.0",
+    "applicationType": "monolith",
+    "baseName": "gallery",
+    "packageName": "com.sjsu.enterpriseproject",
+    "packageFolder": "com/sjsu/enterpriseproject",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZmZmYjQ0YTM4YjE5NWFjMDM4ZjA2Mjk0ODExMTQxNjkzZjljYWQ0OGJiYjQ0MTM2NWI0ZDU5ZmZjMGRhMzNiNWRlZjQ4MjNlMTI2Zjg4YWM5YWEzMjlkMGUzYjU4MGFjZmFhZTEwMmZiYzJhNmNmMTNmYzJhOGZjODUzNGRjYjk=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1587788587883,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": []
+  }
+}
