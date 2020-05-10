@@ -61,14 +61,22 @@ TODO: SEQUENCE
 
     @Query("select photo from Photo photo left join fetch photo.tags where photo.id =:id")
     Optional<Photo> findOneWithEagerRelationships(@Param("id") Long id);
-    ```
+ ```
 ## Albums
 ```Java
     @Query("select album from Album album where album.user.login = ?#{principal.username}")
     List<Album> findByUserIsCurrentUser();
-    ```
+```
 
 # Mid tier APIs
+## Album, Photo, and Tag
+### POST /albums /photos /tags
+Create entity
+### PUT /albums /photos /tags
+Update entity
+### GET /albums /photos /tags with /{OPTIONAL_ID}
+Get entity
+If ID is provided, get entity with specified ID
 
 # UI data transport
 JSON is utilized as the data transport between the frontend and the backend code vs REST APIs
