@@ -48,6 +48,7 @@ The `npm run` command will list all of the scripts available to run for this pro
 TODO: SEQUENCE
 
 # Schema
+TODO: SEQUENCE
 
 # Database Queries
 ## Photos
@@ -77,6 +78,8 @@ Update entity
 ### GET /albums /photos /tags with /{OPTIONAL_ID}
 Get entity
 If ID is provided, get entity with specified ID
+### DELETE /albums /photos /tags /{ID} (Required)
+Delete entity of specified type and provided ID
 
 # UI data transport
 JSON is utilized as the data transport between the frontend and the backend code vs REST APIs
