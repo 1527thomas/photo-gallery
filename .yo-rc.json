@@ -38,6 +38,15 @@
     "enableTranslation": true,
     "nativeLanguage": "en",
     "languages": ["en"],
-    "blueprints": []
+    "blueprints": [],
+    "aws": {
+      "applicationName": "172-gallery",
+      "environmentName": "gallery-env",
+      "bucketName": "172-gallery-bucket",
+      "instanceType": "t2.micro",
+      "awsRegion": "us-west-2",
+      "dbName": "galleryDB",
+      "dbInstanceClass": "db.t2.micro"
+    }
   }
 }

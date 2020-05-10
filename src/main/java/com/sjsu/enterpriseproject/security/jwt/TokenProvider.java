@@ -50,7 +50,7 @@ public class TokenProvider {
             keyBytes = secret.getBytes(StandardCharsets.UTF_8);
         } else {
             log.debug("Using a Base64-encoded JWT secret key");
-            keyBytes = Decoders.BASE64.decode(jHipsterProperties.getSecurity().getAuthentication().getJwt().getBase64Secret());
+            keyBytes = Decoders.BASE64.decode("ZmZmYjQ0YTM4YjE5NWFjMDM4ZjA2Mjk0ODExMTQxNjkzZjljYWQ0OGJiYjQ0MTM2NWI0ZDU5ZmZjMGRhMzNiNWRlZjQ4MjNlMTI2Zjg4YWM5YWEzMjlkMGUzYjU4MGFjZmFhZTEwMmZiYzJhNmNmMTNmYzJhOGZjODUzNGRjYjk=");
         }
         this.key = Keys.hmacShaKeyFor(keyBytes);
         this.tokenValidityInMilliseconds =

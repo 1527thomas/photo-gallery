@@ -5,7 +5,7 @@
 
     <groupId>com.sjsu.enterpriseproject</groupId>
     <artifactId>gallery</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>Gallery</name>
 
@@ -204,7 +204,8 @@
         </dependency>
         <dependency>
             <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
+	    <artifactId>postgresql</artifactId>
+	    <version>42.2.2</version>
         </dependency>
         <dependency>
             <groupId>org.mapstruct</groupId>
