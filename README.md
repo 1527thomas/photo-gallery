@@ -50,9 +50,13 @@ TODO: SEQUENCE
 # Schema
 Because this was a simple application, the schema mirrors the UML Diagram, which can be referenced above.
 ![1](https://imgur.com/u8ZhqrP.png)
+
 ![1](https://imgur.com/gfk8dsI.png)
+
 ![1](https://imgur.com/gikoXAL.png)
+
 ![1](https://imgur.com/LJRxA9E.png)
+
 ![1](https://imgur.com/I47QDwH.png)
 
 # Database Queries
