@@ -48,9 +48,17 @@ The `npm run` command will list all of the scripts available to run for this pro
 TODO: SEQUENCE
 
 # Schema
-TODO: SEQUENCE
+Because this was a simple application, the schema mirrors the UML Diagram.
+![1](https://imgur.com/URBDd8q.png)
+![1](https://imgur.com/u8ZhqrP)
+![1](https://imgur.com/gfk8dsI)
+![1](https://imgur.com/gikoXAL)
+![1](https://imgur.com/LJRxA9E)
+![1](https://imgur.com/I47QDwH)
 
 # Database Queries
+All database queries are handled by JPA to uncouple platform from specific type of database.
+
 ## Photos
 ```Java
     @Query(value = "select distinct photo from Photo photo left join fetch photo.tags",
