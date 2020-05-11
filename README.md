@@ -43,9 +43,11 @@ auto-refreshes when files change on your hard drive.
 The `npm run` command will list all of the scripts available to run for this project.
 
 # UML Diagram
+## lass Diagram
 ![1](https://imgur.com/URBDd8q.png)
 
-TODO: SEQUENCE
+## Sequence Diagram
+![1](https://imgur.com/0zEi1O4.png)
 
 # Schema
 Because this was a simple application, the schema mirrors the UML Diagram, which can be referenced above.
