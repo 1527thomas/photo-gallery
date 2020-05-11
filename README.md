@@ -43,7 +43,7 @@ auto-refreshes when files change on your hard drive.
 The `npm run` command will list all of the scripts available to run for this project.
 
 # UML Diagram
-## lass Diagram
+## Class Diagram
 ![1](https://imgur.com/URBDd8q.png)
 
 ## Sequence Diagram
